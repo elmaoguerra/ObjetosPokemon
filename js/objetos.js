@@ -22,9 +22,9 @@ function aleatorio(min,max){
 function crearPokemones(){
 	
 	var listaPokemon=[ new Pokemon("Pikachu",100,53),
-					   new Pokemon("Charmander",80,40),
-					   new Pokemon("Squirtle",90,33),
-					   new Pokemon("Geodude",70,10)
+			   new Pokemon("Charmander",80,40),
+			   new Pokemon("Squirtle",90,33),
+			   new Pokemon("Geodude",70,10)
 						];
 	var indice=parseInt(aleatorio(0,4));
 	var pokeAleat=listaPokemon[indice];
