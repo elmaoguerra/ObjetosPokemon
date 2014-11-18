@@ -36,5 +36,6 @@ function crearPokemones(){
 							"Grito: " +pokeAleat.grito + "\n\n";
 	pokeAleat.gritar();
 	imagenPoke.setAttribute("src","imagenes/"+pokeAleat.nombre+".jpg");
+	
 }
 

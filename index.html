@@ -6,12 +6,33 @@
 	<script type="text/javascript" src="js/objetos.js"></script>
 </head>
 <body>
-	<h1>Ejemplos Objectos Pokemon Por: @elmaoguerra</h1>
+	<h1>Ejemplos Objectos Pokemon Por:
+		<a href="https://twitter.com/elmaoguerra" target="_blank">@elmaoguerra</a>
+	</h1>
 	<h2 id="nombrePoke">Prueba</h2>
 	<p id="datosPoke">Datos</p>
-	<img id="imagenPoke"src="" alt="">
+	<img id="imagenPoke" src="" alt="Pokemon" width="300px">
 	<script type="text/javascript">
-		crearPokemones();	
+		crearPokemones();
+		//Creamos un Arreglo de 5 numeros
+		var arreglo = [1,3,5,8,2];
+		//Una variable donde se guardara
+		// el numero mayor del arreglo
+		var mayor = 0;
+		//Un ciclo for que recorrera 5 veces
+		//Una variable i que sera el indice 
+		// y aumentara en 1
+		for (var i = 0; i < 5; i++) {
+			//Condicion
+			//Si el numero en la posicion i
+			// es mayor que la variable mayor
+			if(arreglo[i]>mayor){
+				//Cambia el valor en mayor
+				mayor=arreglo[i];
+			}
+		}
+		alert("El numero mayor es: "+mayor);
 	</script>
+	
 </body>
 </html>
